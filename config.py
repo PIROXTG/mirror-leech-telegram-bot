@@ -23,7 +23,7 @@ GOFILE_API_KEY = ""
 TLDV_TOKEN = ""
 EXCLUDED_EXTENSIONS = "aria2 !qB aria2 !qb html jpg png js txt srt nfo webp m4a exe iso rar zip inf mp3 pdf url png nfo tiff dat bundle hash json xml bin ini dll config torrent"
 INCLUDED_EXTENSIONS = ""
-INCOMPLETE_TASK_NOTIFIER = True
+INCOMPLETE_TASK_NOTIFIER = False
 YT_DLP_OPTIONS = ""
 GALLERY_DL_OPTIONS = ""
 USE_SERVICE_ACCOUNTS = False
@@ -33,7 +33,7 @@ UPLOAD_PATHS = {}
 # GDrive Tools
 GDRIVE_ID = ""
 IS_TEAM_DRIVE = False
-STOP_DUPLICATE = True
+STOP_DUPLICATE = False
 INDEX_URL = ""
 # Rclone
 RCLONE_PATH = ""
@@ -91,8 +91,8 @@ BASE_URL_PORT = 0
 WEB_PINCODE = False
 # Queueing system
 QUEUE_ALL = 30
-QUEUE_DOWNLOAD = 27
-QUEUE_UPLOAD = 3
+QUEUE_DOWNLOAD = 29
+QUEUE_UPLOAD = 1
 # RSS
 RSS_DELAY = 600
 RSS_CHAT = ""
