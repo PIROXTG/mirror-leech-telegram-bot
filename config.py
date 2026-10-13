@@ -27,7 +27,7 @@ INCOMPLETE_TASK_NOTIFIER = False
 YT_DLP_OPTIONS = ""
 GALLERY_DL_OPTIONS = ""
 USE_SERVICE_ACCOUNTS = False
-NAME_SUBSTITUTE = r"www\.[^\s]+ -  | Pahe\.(ink|ph|in|li)/PAHE/s | \[?YTS\.\w+ - YTS\.\w+\]?/YTS/s | YTS\.(MX|LT|BZ|GG)/YTS/s | [\(\)\[\]] | mkvCinemas|www\.SSRmovies\.Com|CineVood|Toonworld4all|[-.]HDHub4u\.Ms|MkvDrama\.Org|EZTVx\.to | \.{2,}/."
+NAME_SUBSTITUTE = r"www\.[^\s]+ -  | Pahe\.(ink|ph|in|li)/PAHE/s | \[?YTS\.\w+ - YTS\.\w+\]?/YTS/s | YTS\.(MX|LT|BZ|GG|AM)/YTS/s | \]\[/  | [\(\)\[\]] | mkvCinemas|www\.SSRmovies\.Com|CineVood|Toonworld4all|[-.]HDHub4u\.Ms|MkvDrama\.Org|EZTVx\.to | [-.]?(www\.)?ExtraFlix\.pw//s | \.{2,}/. | ^[\s-]+ | \s+-\s*(\.\w{2,4})$/\1"
 FFMPEG_CMDS = {"merge": ["-f concat -safe 0 -i mltb.txt -c copy mltb.mp4 -del"]}
 UPLOAD_PATHS = {}
 # GDrive Tools
